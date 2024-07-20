@@ -1,3 +1,6 @@
 # Korean Dialectal Division with Graph-based Regionalization using **skater** Algorithm
 
-본 연구는 2023-2학기 연세대학교 통계데이터사이언스학과 시공간자료분석 수업 내용을 연세대학교 국어국문학과(학부) 국어방언학 수업 내용에 접목한 학제간 연구입니다.
+# Introduction
+본 연구는 2023-2학기 시공간자료분석 수업의 개인 프로젝트 과제를 발전시킨 것입니다.
+
+본 연구는 2023-2학기 국어방언학 수업 내용을 시공간 군집화로 분석한 학제간 연구입니다.
