@@ -1,1 +1,1 @@
-# Korean Dialectal Division with Graph-based regionalization
+# Korean Dialectal Division with Graph-based Regionalization using \texttt{skater}
