@@ -35,3 +35,9 @@
 * $\texttt{skater}$ stands for Spatial 'K'luster Analysis by Tree Edge Removal.
   * "트리의 간선 제거를 통한 공간적 군집 분석"
   * [AssunÇão, R. M. et al. (2006)](https://www.tandfonline.com/doi/abs/10.1080/13658810600665111)에서 제안된 알고리즘.
+* $\texttt{skater}$ 알고리즘은 아래와 같은 순서로 작동된다.
+  1. 전체 데이터를 표현하는 그래프 하나를 입력으로 받는다.
+  2. 그래프 내의 모든 간선에 가중치를 부여한다. 이때 가중치는 연구자의 선호에 따라 자유롭게 선택할 수 있다.
+  3. 2.에서 부여한 가중치에 의거해 전체 그래프를 최소 생성 트리 (Minimum Spanning Tree, MST)로 가공한다.
+  4. 3.에서 생성된 최소 생성 트리에서 간선 하나를 제거한다. 이때 트리는 Acyclic하므로 간선 하나를 제거하면 반드시 2개의 sub-tree가 만들어진다.
+  5. sub-tree 각각을 군집으로 볼 때, 원하는 개수의 군집이 만들어질 때까지 4.를 반복한다.
