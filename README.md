@@ -1,4 +1,4 @@
-# Korean Dialectal Division with Graph-based Regionalization using **skater** Algorithm
+# Korean Dialectal Division with Graph-based Regionalization using $\texttt{skater}$ Algorithm
 * 본 연구는 2023-2학기 연세대학교 통계데이터사이언스학과 **시공간자료분석** 수업의 개인 프로젝트를 발전시킨 것입니다.
 * 본 연구는 2023-2학기 연세대학교 국어국문학과(학부) **국어방언학** 수업 내용 중 일부에 대한 독자적인 분석 결과입니다.
 * 구체적으로는, 공간 군집화(정확히는 지역화) 방법론을 국어학에 접목해 한국어 대방언권을 정량적으로 구획하는 연구입니다.
@@ -32,3 +32,6 @@
   * 한 방언 구획에 속한 행정구역은 모두 연결되어 있는 것이 상식적이므로 본 연구에서는 지역화를 사용하였다.
 
 # 3-1. $\texttt{skater}$ Algorithm
+* $\texttt{skater}$ stands for Spatial 'K'luster Analysis by Tree Edge Removal.
+  * "트리의 간선 제거를 통한 공간적 군집 분석"
+  * AssunÇão, R. M. et al. (2006)에서 제안된 알고리즘.
