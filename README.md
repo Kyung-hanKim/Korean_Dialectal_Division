@@ -41,4 +41,5 @@
   3. ii.에서 부여한 가중치에 의거해 전체 그래프를 최소 생성 트리 (Minimum Spanning Tree, MST)로 가공한다.
   4. iii.에서 생성된 최소 생성 트리에서 간선 하나를 제거한다. 이때 트리는 Acyclic하므로 간선 하나를 제거하면 반드시 2개의 sub-tree가 만들어진다.
      이때 Intracluster square deviation($\text{SSD} = \sum_{j} \sum_{i} (x_{ij} - \bar{x_j})^2$)의 총합이 가장 작아지는 방향으로 제거할 간선을 결정한다.
+     * 단, 본 연구에서는 독자적인 단어 비유사도 (Word Dissimilarity)를 가공한 지표를 새롭게 정의해 기존의 지표를 대체하였다. 
   5. sub-tree 각각을 군집으로 볼 때, 원하는 개수의 군집이 만들어질 때까지 iv.를 반복한다.
