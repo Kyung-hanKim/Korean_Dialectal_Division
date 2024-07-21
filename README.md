@@ -34,4 +34,4 @@
 # 3-1. $\texttt{skater}$ Algorithm
 * $\texttt{skater}$ stands for Spatial 'K'luster Analysis by Tree Edge Removal.
   * "트리의 간선 제거를 통한 공간적 군집 분석"
-  * AssunÇão, R. M. et al. (2006)에서 제안된 알고리즘.
+  * [AssunÇão, R. M. et al. (2006)](https://www.tandfonline.com/doi/abs/10.1080/13658810600665111)에서 제안된 알고리즘.
